@@ -33,7 +33,7 @@ spec:
     spec:
       containers:
       - name: train-schedule
-        image: dangcongphung/train-schedule:latest
+        image: dangcongphung/train-schedule:70
         ports:
         - containerPort: 9999
         livenessProbe:
